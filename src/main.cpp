@@ -5,6 +5,8 @@
 #include "find_duplicated_alphabeta_two_array.h"
 #include "MergeSort.h"
 
+#include "LinkedListComponents.h"
+
 int main(void )
 {
     char* a1 = "afdfbaerofdkfjdkfhgbz";
@@ -22,8 +24,10 @@ int main(void )
         std::cout << " " << a[i]; 
     }
 
-    std::cout << std::endl;
 
+    LinkedListComponents::solution::test();
+
+    std::cout << std::endl;
 
 }
 
