@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "clang++",
+            "args": [
+                "main.cpp",
+                "find_duplicated_alphabeta_two_array.cpp",
+                "-std=c++11",
+                "-g"
+            ],
+            "showOutput": "always",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
